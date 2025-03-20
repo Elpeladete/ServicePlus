@@ -20,7 +20,6 @@
         padding: 20px;
         overflow-y: auto;
         height: 100%;
-        transition: width 0.3s;
       }
       .task-list h2 {
         text-align: center;
@@ -50,8 +49,6 @@
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
         padding: 20px;
-        height: 100%;
-        overflow-y: auto;
       }
       .task-details-content h3 {
         margin: 0;
@@ -131,7 +128,7 @@
           });
         }
 
-        document.getElementById('taskDetails').style.display = 'flex';
+        document.getElementById('taskDetails').style.display = 'block';
         document.querySelector('.task-list').style.width = '300px';
       }
 
